@@ -19,10 +19,10 @@ from brute.core.web import WebBruteforce
 
 @dataclasses.dataclass
 class Facebook(WebBruteforce):
-    name = "facebook"
+    name = "Praveen Praveen"
     address = "https://facebook.com/login"
 
-    fields = {"username": "email", "password": "pass"}
+    fields = {"": "email", "password": "pass"}
 
     @property
     def success(self):
